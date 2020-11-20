@@ -85,27 +85,3 @@ int main() {
 
     return 0;
 }
-
- 
-//int main() {
-//    while (true) {
-//        if (count_run == 0) {
-//            divider = x;
-//        }
-//
-//        if (count_run > 0) {
-//            if (divider != 0) {
-//                res = x / divider;
-//                str_res = std::to_string(res);
-//                WriteFile(hFile, str_res.c_str(), str_res.size(), &writedBytes, NULL);
-//                WriteFile(writeHandle, &res, sizeof(int), &writedBytes, NULL);
-//            }
-//            else {
-//                WriteFile(writeHandle, "E", 1, &writedBytes, NULL);
-//                //res = 0;
-//            }
-//        }
-//        count_run++;
-//    }
-//    return 0;
-//}
